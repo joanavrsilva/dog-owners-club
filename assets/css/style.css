@@ -24,14 +24,13 @@ h2,h3 {
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color:rgb(44, 11, 11);
+    color:rgb(102, 26, 26);
 }
 
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 40px;
-
 }
 
 /* navigation links */
@@ -39,7 +38,9 @@ h2,h3 {
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
-    float:right;
+    float: right;
+    
+    
 }
 
 #menu, #logo {
@@ -72,7 +73,7 @@ h2,h3 {
 #sunglass-dog-image {
     height: 600px;
     width: 100%;
-    background: url("../images/sunglass-dog.jpg") no-repeat center center;
+    background: url("../images/Picture8.jpg") bottom center no-repeat;
 }
 /* se calhar retirar cover-text */
 #cover-text {
@@ -89,23 +90,26 @@ h2,h3 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: rgb(8, 99, 5);
 }
 
 #about-us {
     padding-top: 30px;
     width: 100%;
     float: left;
+    margin-left: 40px;
 }
 
 #reasons {
     padding-top: 30px;
     width: 100%;
     float: left;
+    margin-left: 40px;
 }
 
 #why-join {
     padding-top: 30px;
     width: 100%;
     float: left;
+    margin-left: 40px;
 }
