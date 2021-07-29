@@ -30,6 +30,8 @@ h2,h3 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 40px;
+
 }
 
 /* navigation links */
@@ -88,4 +90,22 @@ h2,h3 {
 
 #cover-text, #cover-text h2 {
     color: #fff;
+}
+
+#about-us {
+    padding-top: 30px;
+    width: 100%;
+    float: left;
+}
+
+#reasons {
+    padding-top: 30px;
+    width: 100%;
+    float: left;
+}
+
+#why-join {
+    padding-top: 30px;
+    width: 100%;
+    float: left;
 }
