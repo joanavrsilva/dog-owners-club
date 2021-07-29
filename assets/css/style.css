@@ -94,22 +94,49 @@ h2,h3 {
 }
 
 #about-us {
-    padding-top: 30px;
+    padding-top: 60px;
     width: 100%;
     float: left;
     margin-left: 40px;
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 #reasons {
-    padding-top: 30px;
+    padding-top: 60px;
     width: 100%;
     float: left;
     margin-left: 40px;
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;   
+    list-style-position: inside;
 }
 
 #why-join {
-    padding-top: 30px;
+    padding-top: 60px;
     width: 100%;
     float: left;
     margin-left: 40px;
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    text-align:center;
 }
+
+#events {
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px solid #3a3a3a;
+  }
