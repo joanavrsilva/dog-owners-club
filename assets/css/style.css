@@ -40,12 +40,26 @@ h2 {
     float:right;
 }
 
+#menu, #logo {
+    line-height: 75px;
+
+}
+
 #menu li {
     list-style-type: none;
     margin-right: 40px;
-    text-align: center;
     float:left;
 }
 
+#menu a {
+    text-decoration: none;
+    color:brown;
+}
 
+#menu a:hover {
+    border-bottom: double;
+}
 
+.active {
+    border-bottom: double;
+}
