@@ -220,17 +220,6 @@ border: 2px solid white
         height: 150px;
         padding: 0;
         }
-    
-    #images {
-        column:2;
-        }
-
-}
-/* Small media screen */
-@media screen and (max-width:800px) {
-#images {
-     column: 2;
-         }
 }
 
 
