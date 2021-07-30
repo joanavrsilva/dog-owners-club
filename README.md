@@ -28,6 +28,11 @@
 
 #### Upcomming events
 
+### Galery
+
+The gallery shows the user some of the club's events.
+The user can understand the variety of events that the club offers.
+
 ### Tecnologies Used
 
 ### Testing
