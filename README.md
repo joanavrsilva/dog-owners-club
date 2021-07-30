@@ -30,4 +30,18 @@
 
 ### Tecnologies Used
 
+### Testing
+
+#### Issues
+
+#### Performance testing
+
+#### Code Validation
+
+### Deployment
+
+### Credits
+
+### Screenshots
+
 
