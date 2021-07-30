@@ -32,6 +32,7 @@
 
 The gallery shows the user some of the club's events.
 The user can understand the variety of events that the club offers.
+In this section the code as taught in the Love Running Project was used.
 
 ### Tecnologies Used
 
