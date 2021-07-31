@@ -70,7 +70,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background-size: 300px 100px;
-    /*background: url("../images/Picture8.jpg") no-repeat center center;*/
+    background: url("../images/Picture8.jpg") no-repeat center center;
     overflow: hidden;
     position: relative;
 }
@@ -265,25 +265,3 @@ input[type=text], select, oswald, sans-serif {
     color:black;
 }
 
-/* Media queries */
-@media screen (max-width: 480px){
-
-#logo, # menu {
-font-size:14px;}
-
-#sunglass-dog-image {
-    font-size: 0;
-    width:50px;
-    height:50px;
-    display: block;
-
- }
-
-
-    
-}
-}
-
-@media screen (max-width: 480px){}
-
-@media screen (max-width: 480px){}
