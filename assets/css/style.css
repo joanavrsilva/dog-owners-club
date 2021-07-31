@@ -304,4 +304,24 @@ input[type=text], select, oswald, sans-serif {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #sunglass-dog-image {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+
+
 }
