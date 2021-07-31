@@ -3,55 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dog Owners Club in Dublin, Ireland">
-    <meta name="keywords" content="dog owners, dogs club, ireland, dublin">
+    <meta name="viewport" content="Dog Owners Club in Dublin, Ireland">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Dogs owners club</title>
 </head>
+
 <body>
 <!--header and logo-->
    <header>
-       <a href="index.html">
-       <h1 id="logo">Dogs Owners Club <i class="fas fa-paw"></i></h1>
-    </a>
+        <a href="index.html">
+            <h1 id="logo">Dogs Owners Club <i class="fas fa-paw"></i></h1>
+        </a>
 <!--nav menu-->
     <nav>
         <ul id="menu">
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="gallery.html" >Gallery</a></li>
-        <li> <a href="contact.html"class="active">Contact</a></li>
-       </ul> 
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="gallery.html" >Gallery</a></li>
+            <li> <a href="contact.html"class="active">Contact</a></li>
+        </ul> 
     </nav>
    
-</header>
-    <section>
-    <div>
-        <h2>Do you want to talk with our crew? Contact us</h2>
-        <h2>Fone number (020 917 9700)</h2> 
-        <h2>Email:</h2>  
-        <h2>Adress:</h2>
-        <h2>Or write your question</h2>
-        
-    </div>
-</section>
-<section>
+    </header>
 
-<div class="container">
-    <form action="action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<!--contact section-->
+    <section>
+        <div id="contact">
+            <h2>Do you want to talk with our crew?</h2> 
+        </div>
+    </section>
+
+    <div class="container">
+        <form action="submit.html" method="get">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
   
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email..." required>
     
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <label for="subject">Subject</label> <br>
+            <textarea id="subject" name="subject" placeholder="Write something.." required>
+
+            </textarea>
   
-      <input type="submit" value="Submit">
+            <input type="submit" value="Submit">
   
     </form>
   </div>
+</section>
+
+<section>
+    <h3>Other contacts:</h3>
+    <h3>Phone Number : (020 917 9700)</h3> 
+    <h3>Email - dogs.owners.club.dublin@gmail.com</h3>  
+    <h3>Adress - 32A Mountpelier Tce., Cork, County Cork</h3>
+    <h3>Or write your question</h3>
 </section>
 </body>
 
