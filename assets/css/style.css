@@ -9,21 +9,15 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300; 
-    color: brown;   
+    color:rgb(102, 26, 26);   
 }
 
 /* headings and logo */
 
-h1{
+h1, h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
-    color:brown;
-} 
-
-h2 {
-    font-family: Oswald, sans-serif;
-    letter-spacing: 3px;
-    color:rgb(102, 26, 26);
+    color:darkred;
     position: inherit;
 }
 
@@ -36,7 +30,7 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 3px;
     float: right; 
 }
@@ -54,7 +48,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color:brown;
+    color:darkred;
 }
 
 #menu a:hover {
@@ -62,7 +56,7 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid lightsteelblue;
 }
 
 .active {
@@ -88,7 +82,7 @@ h2 {
     width: 300px;
     height: 250px;
     padding: 30px;
-    background-color:brown;
+    background-color:darkred;
     bottom: 30px;
     right: 150px;
     position: absolute;
@@ -98,20 +92,20 @@ h2 {
     color:white;
 }
 
-#about-us {
-    text-align: center;
+/* Text-align about us, reasons and upcoming events */
+#about-us, #reasons, #events {
+    text-align: left;
+    padding-bottom: 20px;
+    margin: 30px
     
 }
 
-#reasons {
-    text-align: center;   
+/* Reasons numbers style */
+#reasons {  
     list-style-position: inside;
 }
-/* Upcoming events*/
-#events {
-    text-align: center;
-}
 
+/* thematic break */
 hr {
     display: block;
     margin-top: 0.5em;
@@ -121,57 +115,153 @@ hr {
     border-style: inset;
   }
 
-  #dogs-events {
-      background-color: #584f4fbe;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      overflow: hidden;
-      margin-right: 40px; 
-     
+/* Upcoming events */
+#dogs-events {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 40px; 
   }
 
-  #dogs-events div {
-      color:white;
-      background-color:grey;
-      width: 20%;
-      height: 400px;
-      float: left;
-      padding: 100px 0 0 10px;
-      text-align: center;
-      border: 4px dotted white;
-      box-sizing: border-box;
-  }
+#dogs-events div {
+    color:white;
+    background-color:grey;
+    width: 20%;
+    height: 400px;
+    float: left;
+    padding: 100px 0 0 10px;
+    text-align: center;
+    border: 4px dotted white;
+    box-sizing: border-box;
+}
 
-  footer {
+/* Footer */
+footer {
     height: 100px;
 }
 
-/* Gallery photos */
+/* Gallery pictures */
 
 #pictures {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0;
-    }
+    column-gap: 0; 
+}
     
 #pictures > img {
     width: 100%;
-    }
+}
 
 /* gallery */
 
-#images {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-       
-}
 img {
 border: 2px solid white
+}
+
+/* Contact section */
+
+#contact {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-size: 130%;
+    text-align: center;
+    
+}
+
+#others-contacts {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-size: 100%;
+    text-align: right;
+    
+}
+/* Style inputs */
+input[type=text], select, oswald, sans-serif {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid darkred; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  input[type=email], select, oswald, sans-serif {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid darkred; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  #subject {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid darkred; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  /* Submit button */
+  input[type=submit] {
+    background-color:brown;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover */
+  input[type=submit]:hover {
+    background-color: grey;
+  }
+  
+  /* Form background color and padding around the form */
+  .container {
+    padding: 20px;
+  }
+
+  /* Submit bottom response */
+
+  #request-submit {
+    height: 300px;
+    width: 100%;
+    background: url("../images/puppie.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+    
+  /* Footer and social links*/
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 2%;
+    padding: 3%;
+    color:black;
 }
 
 /* Media queries */
@@ -214,97 +304,4 @@ border: 2px solid white
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
-/* Contact section */
-
-#contact {
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    
-}
-/* Style inputs */
-input[type=text], select, oswald, sans-serif {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical 
-  }
-
-  input[type=email], select, oswald, sans-serif {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical 
-  }
-
-  #subject {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical 
-  }
-
-  /* Submit button */
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Submit button hover */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Form background color and padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
-  /* Submit bottom response */
-
-  #request-submit {
-    height: 300px;
-    width: 100%;
-    background: url("../images/puppie.jpg") no-repeat center center;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-  }
-    
-  /* Footer and social links*/
-
-  .social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 150%;
-    margin: 2%;
-    padding: 3%;
-    color:black;
 }
