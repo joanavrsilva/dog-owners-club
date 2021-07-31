@@ -69,7 +69,8 @@ h1, h2 {
 #sunglass-dog-image {
     height: 600px;
     width: 100%;
-    background: url("../images/Picture8.jpg") no-repeat center center;
+    background-size: 300px 100px;
+    /*background: url("../images/Picture8.jpg") no-repeat center center;*/
     overflow: hidden;
     position: relative;
 }
@@ -265,63 +266,24 @@ input[type=text], select, oswald, sans-serif {
 }
 
 /* Media queries */
+@media screen (max-width: 480px){
 
-/* Larger media queries */
-@media screen and (max-width: 1200px) {
-    #about-us {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-        }
-   
-    #reasons {
-        padding: 30px 0;
-        margin: 0;
-        }
+#logo, # menu {
+font-size:14px;}
+
+#sunglass-dog-image {
+    font-size: 0;
+    width:50px;
+    height:50px;
+    display: block;
+
+ }
+
+
     
-    #events {
-        width: 100%;
-        float: left;
-        padding: 0;
-        }
-
-    #events > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-        }
+}
 }
 
+@media screen (max-width: 480px){}
 
-    /* For medium screen sizes */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #sunglass-dog-image {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-
-
-
-}
+@media screen (max-width: 480px){}
