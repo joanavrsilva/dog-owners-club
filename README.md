@@ -28,6 +28,13 @@
 
 #### Upcomming events
 
+### Galery
+
+The gallery shows the user some of the club's events.
+The user can understand the variety of events that the club offers.
+In this section I use the Gallery code as taught in the Love Running Project with some changes.
+In this section I used the Gallery code as taught in the Love Running Project.
+
 ### Tecnologies Used
 
 ### Testing
