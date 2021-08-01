@@ -56,7 +56,7 @@ The website consists of four pages: Home, Gallery, Contact and Submit. Three are
 * Google fonts
 * Font Awesome 
 
-### Galery
+### Gallery
 * The gallery shows the user some of the club's events;
 * The user can understand the variety of events that the club offers;
 * In this section I use the Gallery code as taught in the Love Running Project with some changes.

@@ -66,7 +66,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background-size: 300px 100px;
-    background: url("../images/Picture8-min.jpg") no-repeat center center;
+    background: url(../images/dog-sunglass.jpg) no-repeat center center;
     overflow: hidden;
     position: relative;
 }
@@ -175,7 +175,7 @@ border: 2px solid white
     text-align: right;
     
 }
-
+/* Form */
 /* Style inputs */
 input[type=text], select, oswald, sans-serif {
     width: 100%; 
@@ -234,7 +234,6 @@ input[type=text], select, oswald, sans-serif {
   #request-submit {
     height: 300px;
     width: 100%;
-    background: url("../images/puppie.jpg") no-repeat center center;
     overflow: hidden;
     position: relative;
     text-align: center;
