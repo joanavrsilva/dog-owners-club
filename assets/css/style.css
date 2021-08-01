@@ -13,7 +13,6 @@ body {
 }
 
 /* headings and logo */
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
@@ -28,7 +27,6 @@ h1, h2 {
 }
 
 /* navigation links */
-
 #menu {
     font-size: 100%;
     letter-spacing: 3px;
@@ -64,8 +62,6 @@ h1, h2 {
 }
 
 /* hero-image sunglass dog */
-
-
 #sunglass-dog-image {
     height: 600px;
     width: 100%;
@@ -144,7 +140,6 @@ footer {
 }
 
 /* Gallery pictures */
-
 #pictures {
     clear: both;
     line-height: 0;
@@ -157,21 +152,18 @@ footer {
 }
 
 /* gallery */
-
 img {
 border: 2px solid white
 }
 
 /* Contact section */
-
 #contact {
     height: 100%;
     width: 100%;
     overflow: hidden;
     position: relative;
     font-size: 130%;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #others-contacts {
@@ -183,6 +175,7 @@ border: 2px solid white
     text-align: right;
     
 }
+
 /* Style inputs */
 input[type=text], select, oswald, sans-serif {
     width: 100%; 
@@ -238,7 +231,6 @@ input[type=text], select, oswald, sans-serif {
   }
 
   /* Submit bottom response */
-
   #request-submit {
     height: 300px;
     width: 100%;
@@ -249,7 +241,6 @@ input[type=text], select, oswald, sans-serif {
   }
     
   /* Footer and social links*/
-
 .social-networks {
     text-align: center;
 }

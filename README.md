@@ -1,86 +1,102 @@
-# Website name
+# Dog Owners Club 
+Dog Owners Club is a fictional website where Dublin's dog owners can find activities for them and their pets.
+The site also features an image gallery and a "Contact" page as well as links to the organization's social media platforms.
 
-## Description
+## Features
+The website consists of four pages: Home, Gallery, Contact and Submit. Three are accessible from a navigation menu and one is a submission confirmation page for a form.
 
-### Table of contents
+* Navigation bar
+    * In the left side there is a page logo Dog Club Owners. 
+    * On the right side there are three links: Home, Gallery, Contact.
+    * The navigation bar is visible on the top of each page.
 
-### UX
+* The landing page image
+    * The landing includes a dog's photography and a text overlay with a little description about the website purpose.
 
-### Structure of the website
+* About Us and Reasons why dogs make the coolest pets
+    * These sections explain why the site was created and give some reasons why it's good to have a dog.
 
-### Surface
-### Colors
-* background color: #ccddff
-* font color: #6217ee
-* link color: #ff6600
-* hoover color: #ff9000
+* Upcoming events
+    * This section will allow the user to see the upcommig events and when they will happen,the name of the events, the place and time they start.
+    * This section will be updated with new events.
+ 
+* Footer
+    * The footer includes links to the relevant social media sites for Dog Owners Club.
+    * The footer is consistent on all pages.
+    * Each link will open in a separate tab in a browser.
 
-#### Fonts
-* Lato
-* Osmald
-* Sans-serif (backup front)
+* Gallery
+    * The gallery provide the user with some images about the club events.
+    * This section bring value to the user as they will be able to see the diferents types of events the club provides.
 
-#### Images
-* Pexeles.com
+* Contact
+    * The contact page contains a form that the user can fill. It's required fill the entire form to submit. 
+    * Below the form there is the club contacts information with the club's name, a adress, a phone number and a email.
 
-### Features
+* Submit
+    * After submitting the contact page form, a page appears with the following sentence: "Your request has been successfully submitted, we will contact you shortly." and a puppy image.
 
-### Footer
+* Colors
+    * background color: #ccddff
+    * font color: #6217ee
+    * link color: #ff6600
+    * hoover color: #ff9000
 
-### Home
+* Fonts
+    * Lato
+    * Osmald
+    * Sans-serif (backup front)
 
-#### About Us
-
-#### Reasons why dogs make the coolest pets
-
-#### Upcomming events
+### Tecnologies Used
+* HTML5 
+* CSS
+* Git
+* GitHub
+* Gitpod
+* Google fonts
+* Font Awesome 
 
 ### Galery
-The gallery shows the user some of the club's events.
-The user can understand the variety of events that the club offers.
-In this section I use the Gallery code as taught in the Love Running Project with some changes.
+* The gallery shows the user some of the club's events;
+* The user can understand the variety of events that the club offers;
+* In this section I use the Gallery code as taught in the Love Running Project with some changes.
 
 
 ### Footer
 * Consistent on all pages with social links.
 
-### Tecnologies Used
-* HTML5 - structure language.
-* CSS - style language.
-* Font Awesome - icon for social links and Dog Owners Logo.
-* Google fonts - font resource.
-* GitHub - software hosting platform to keep project in a remote location.
-* Git - version-control system tracking.
-* Gitpod - development hosting platform.
-
-
 ### Testing
-
-#### Issues
+#### Code Validation
+* CSS
+    * W3C CSS Validator - All errors have been fixed.
+* HTML
+    * Nu Html Checker - All errors have been fixed.
 
 #### Performance testing
-    * Lighthouse performace - 84% (insert screen shoot)
-
-#### Code Validation
-    * W3C CSS Validator to validate CSS
-    * Nu Html Checker to test HTML
+* Lighthouse performace - 84% (insert screen shoot).
 
 ### Deployment
-    * The project was deployed on GitHub Pages.
+* The project was deployed on GitHub Pages.
 
-    Project deployment:
-
-    *Log in to GitHub and click on repository to deploy (MP1)
-    *select Settings and find GitHub Pages section at the very bottom of the page
-    *from source select none and then Milestone-Projects branch.
-    *click save and page was deployed after auto-refresh.
-    *Your site is published at https://marcin-kli.github.io/MP1/
+The steps to deploy are as follows:
+* In the GitHub repository, I navigate to the Settings tab;
+* From the source section drop-down menu, I select the Main Branch;
+* Once the master branch has been selected, the page refreshed with a detailed ribbon display to indicate the successful deployment;
+* The site is published at (https://joanavrsilva.github.io/dogs-owners-club/).
 
 ### Credits
-* Code Institute student template: gitpod full template
-* w3schools.com
-* Code Instute Love Running Project
+* Code
+    * I used the Code Institute student template (https://github.com/Code-Institute-Org/gitpod-full-template);
+    * I used code from the Code Institute Love Running Project for the website structure, organization, upcoming events and social media;
+    * For the contact page form I used the w3schools code (whttps://www.w3schools.com/html/html_forms.asp).
+* Content
+    * The upcomming events names are based in some United States events (https://vacationidea.com/ideas/best-dog-events.html);
+    * The reasons section has been based in the 10 Science-Based Benefits of Having a Dog (https://www.akc.org/expert-advice/lifestyle/10-science-based-benefits-dog/);
+    * The telephone number was generated by a fake generator (https://fakenumber.org/ireland);
+    * The adress  was generated by a fake generator (https://www.fakeaddressgenerator.com/All_countries/address/country/Ireland).
+* Images
+    * All the images are from Pexels (https://www.pexels.com/). The home page picture was edited in powerpoint;
+    * All the icons are from Font Awesome (fontawesome.com).
 
-### Screenshots
 
 
