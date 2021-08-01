@@ -84,11 +84,29 @@ The steps to deploy are as follows:
 * Once the master branch has been selected, the page refreshed with a detailed ribbon display to indicate the successful deployment;
 * The site is published at (https://joanavrsilva.github.io/dogs-owners-club/).
 
+#### Issues and changes
+Unfortunately after deployment I had to make more changes than I expected:
+* I changed the media queries;
+* I beautify the code manually and added some comments;
+* I fixed the about and reasons text and added a font awsome icon to the about;
+* I deleted a sign up page;
+* I added a form to the contact page;
+* I created a submit page and added a video;
+* I changed text colors and background color;
+* I completed the readme file.
+
+#### Future changes
+Unfortunately, I didn't have time to implement all the changes I wanted and those suggested by my mentor. 
+* The most important ones are:
+** Improve website response and 
+** Add photos to the readme.
+
 ### Credits
 * Code
     * I used the Code Institute student template (https://github.com/Code-Institute-Org/gitpod-full-template);
-    * I used code from the Code Institute Love Running Project for the website structure, organization, upcoming events and social media;
+    * I used code from the Code Institute Love Running Project for the website structure, organization, upcoming events, social media and media queries;
     * For the contact page form I used the w3schools code (whttps://www.w3schools.com/html/html_forms.asp).
+    * For the video I used the w3schools code (https://www.w3schools.com/html/html5_video.asp)
 * Content
     * The upcomming events names are based in some United States events (https://vacationidea.com/ideas/best-dog-events.html);
     * The reasons section has been based in the 10 Science-Based Benefits of Having a Dog (https://www.akc.org/expert-advice/lifestyle/10-science-based-benefits-dog/);
