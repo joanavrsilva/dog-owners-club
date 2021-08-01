@@ -115,6 +115,8 @@ Unfortunately, I didn't have time to implement all the changes I wanted and thos
 * Images
     * All the images are from Pexels (https://www.pexels.com/). The home page picture was edited in powerpoint;
     * All the icons are from Font Awesome (fontawesome.com).
+* Video
+    * The video is from Pexels (https://www.pexels.com/)
 
 
 
