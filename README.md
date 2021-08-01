@@ -70,7 +70,7 @@ The website consists of four pages: Home, Gallery, Contact and Submit. Three are
 * CSS
     * W3C CSS Validator - All errors have been fixed.
 * HTML
-    * Nu Html Checker - All errors have been fixed.
+    * Nu Html Checker - All errors have been fixed, except for video.
 
 #### Performance testing
 * Lighthouse performace - 84% (insert screen shoot).
