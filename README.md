@@ -100,7 +100,7 @@ Unfortunately, I didn't have time to implement all the changes I wanted and thos
 * The most important ones are:
 ** Improve website response and 
 ** Add photos to the readme;
-** Center thank you video from contact page.
+** Correct video code.
 
 ### Credits
 * Code
