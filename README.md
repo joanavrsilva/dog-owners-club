@@ -99,7 +99,8 @@ Unfortunately after deployment I had to make more changes than I expected:
 Unfortunately, I didn't have time to implement all the changes I wanted and those suggested by my mentor. 
 * The most important ones are:
 ** Improve website response and 
-** Add photos to the readme.
+** Add photos to the readme;
+** Center thank you video from contact page.
 
 ### Credits
 * Code
