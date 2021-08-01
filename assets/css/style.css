@@ -22,7 +22,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 150%;
     margin-left: 30px;
 }
 
@@ -253,5 +253,13 @@ input[type=text], select, oswald, sans-serif {
     margin: 2%;
     padding: 3%;
     color:black;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+    .columm{
+      flex: 100%;
+      max-width: 100%;
+    }
 }
 
