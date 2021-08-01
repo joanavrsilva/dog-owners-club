@@ -10,19 +10,18 @@
 
 ### Surface
 ### Colors
-
-    *background color: #ccddff
-    *font color: #6217ee
-    *link color: #ff6600
-    *hoover color: #ff9000
+* background color: #ccddff
+* font color: #6217ee
+* link color: #ff6600
+* hoover color: #ff9000
 
 #### Fonts
-    *Lato
-    *Osmald
-    *Sans-serif (backup front)
+* Lato
+* Osmald
+* Sans-serif (backup front)
 
 #### Images
-    *Pexeles.com
+* Pexeles.com
 
 ### Features
 
@@ -37,23 +36,22 @@
 #### Upcomming events
 
 ### Galery
+The gallery shows the user some of the club's events.
+The user can understand the variety of events that the club offers.
+In this section I use the Gallery code as taught in the Love Running Project with some changes.
 
-    * The gallery shows the user some of the club's events.
-    The user can understand the variety of events that the club offers.
-    In this section I use the Gallery code as taught in the Love Running Project with some changes.
-    In this section I used the Gallery code as taught in the Love Running Project.
 
 ### Footer
-    * Consistent on all pages with social links.
+* Consistent on all pages with social links.
 
 ### Tecnologies Used
-    * HTML5 - structure language.
-    * CSS - style language.
-    * Font Awesome - icon for social links and Dog Owners Logo.
-    * Google fonts - font resource.
-    * GitHub - software hosting platform to keep project in a remote location.
-    * Git - version-control system tracking.
-    * Gitpod - development hosting platform.
+* HTML5 - structure language.
+* CSS - style language.
+* Font Awesome - icon for social links and Dog Owners Logo.
+* Google fonts - font resource.
+* GitHub - software hosting platform to keep project in a remote location.
+* Git - version-control system tracking.
+* Gitpod - development hosting platform.
 
 
 ### Testing
@@ -79,9 +77,9 @@
     *Your site is published at https://marcin-kli.github.io/MP1/
 
 ### Credits
-    *Code Institute student template: gitpod full template
-    *w3schools.com
-    *Code Instute Love Running Project
+* Code Institute student template: gitpod full template
+* w3schools.com
+* Code Instute Love Running Project
 
 ### Screenshots
 
